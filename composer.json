@@ -1,0 +1,23 @@
+{
+  "name": "venca-x/nette-newrelic",
+  "description": "Addon for better monitoring Nette framework",
+  "keywords": ["nette", "php", "newrelic"],
+  "license": "MIT",
+  "version": "0.0.1",
+  "authors": [
+    {
+      "name": "vEnCa-X",
+      "email": "venca-x@seznam.cz",
+      "homepage": "http://www.venca-x.cz"
+    }
+  ],
+  "require": {
+    "php": ">= 5.4",
+    "nette/nette": ">=2.2.0",
+    "nette/tester": ">=1.0",
+    "kdyby/events": "~2.3"
+  },
+  "autoload": {
+    "classmap": ["src/"]
+  }
+}
