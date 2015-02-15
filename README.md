@@ -16,7 +16,7 @@ Installation
 
 Add the nete-newrelic to your dependencies (you need composer):
 
-        composer require venca-x/nette-newrelic
+        composer require venca-x/nette-newrelic @dev
 
 Configuration
 -------------
