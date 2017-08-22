@@ -50,7 +50,7 @@ class NewRelicProfilingListener extends Nette\Object implements Kdyby\Events\Sub
         newrelic_name_transaction( $_SERVER['HTTP_HOST'] . " | " . $request->getPresenterName() . ( isset( $params['action'] ) ? ':' . $params['action'] : '' ) );
     }
 
-    public function onError( Application $app, \Exception $e )
+    public function onError( Application $app, \Error $e )
     {
         if( !extension_loaded( 'newrelic' ) )
         {
