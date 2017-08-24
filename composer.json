@@ -3,7 +3,6 @@
   "description": "Addon for better monitoring Nette framework",
   "keywords": ["nette", "php", "newrelic"],
   "license": "MIT",
-  "version": "0.0.1",
   "authors": [
     {
       "name": "vEnCa-X",
